@@ -1,5 +1,5 @@
 variable "APP_ID" {
-    default = "PP4V_nonprod_wlns"
+     default = "PP4V_nonprod_wlns"
   
 }
 
@@ -52,3 +52,4 @@ variable "priv_tags" {
         APP = "outbound"}
    
 }
+
