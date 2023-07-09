@@ -1,6 +1,6 @@
 module "PP4V" {
-    #source = "../project-k"
-    source = "git::https://github.com/HemanthAmbati/pipeline.git?ref=main"
+    source = "../project-k"
+    #source = "git::https://github.com/HemanthAmbati/pipeline.git?ref=main"
     vpc_name = var.APP_ID
     vpc_cidr_block = var.PP4V_vpc_cidr
     vpc_tags = var.PP4V_tags
